@@ -21,7 +21,6 @@
 	}
 	arsort($wordlist);
 	$max = max($wordlist);
-	echo "Text pulled from https://www.gutenberg.org/files/2701/2701-h/2701-h.htm<br />";
 	echo "<table><tr><th style='background-color:#999;'>Word</th><th style='background-color:#999;'>Count</th><th style='background-color:#999;'>&nbsp;</th></tr>";
 	$i=0;
 	foreach($wordlist AS $word=>$count){
